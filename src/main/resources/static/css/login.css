@@ -1,0 +1,86 @@
+body {
+    background: url(../images/login_bg_0.png) #f8f6e9 0 0 no-repeat;
+    background-size: cover;
+}
+
+.login {
+    width: 477px;
+    height: 479px;
+    background: url(../images/login_bg.png) no-repeat;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -239px;
+    margin-left: -238px;
+}
+
+.login-head {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 120px;
+}
+
+.form-login {
+    max-width: 330px;
+    padding: 43px 15px 15px 15px;
+    margin: 0 auto;
+}
+
+.form-login .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-login .checkbox {
+    font-weight: normal;
+}
+
+.form-login .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-login .form-control:focus {
+    z-index: 2;
+}
+
+.form-login input[type="text"] {
+    margin-bottom: 14px;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+}
+
+.form-login input[type="password"] {
+    margin-bottom: 14px;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+}
+
+#userNameBackground {
+    background: url(../images/login_user.png) 0 0 #bdbdbd no-repeat;
+    padding-left: 50px;
+}
+
+#passwordBackground {
+    background: url(../images/login_pas.png) 0 0 #bdbdbd no-repeat;
+    padding-left: 50px;
+}
+
+.form-login button {
+    border-radius: 0;
+}
+
+input:-webkit-autofill {
+    -webkit-transition-delay: 99999s;
+    -webkit-transition: color 99999s ease-out, background-color 99999s ease-out, b;
+}

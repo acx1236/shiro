@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+
+    <script src="webjars/jquery/dist/jquery.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <link rel="stylesheet" href="webjars/bootstrap/css/bootstrap.min.css"/>
+    <link href="css/login.css" rel="stylesheet">
+    <script src="webjars/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            // $("#login_form").ajaxForm(function (data) {
+            //     alert(data);
+            // if (data === 'success') {
+            //     window.location.href = "index";
+            // }
+            // });
+        });
+    </script>
+</head>
+<body>
+<div class="login">
+    <div class="login-head">
+        <img src="images/user.png" alt="" class="img-circle">
+    </div>
+    <form id="login_form" class="form-login" action="login" method="post">
+        <div id="userNameBackground">
+            <input name="username" type="text" class="form-control" placeholder="用户名" required
+                   autofocus/>
+        </div>
+        <div id="passwordBackground">
+            <input name="password" type="password" class="form-control" placeholder="密码"
+                   required/>
+        </div>
+        <button class="btn btn-lg btn-warning btn-block" type="submit">登录</button>
+        <label class="checkbox">
+            <input type="checkbox" name="rememberMe"> <span style="font-size: 12px">记住我</span>
+        </label>
+    </form>
+</div>
+</body>
+</html>
